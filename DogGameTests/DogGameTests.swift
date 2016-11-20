@@ -7,18 +7,36 @@
 //
 
 import XCTest
+import Foundation
 @testable import DogGame
 
 class DogGameTests: XCTestCase {
     
+    var vc = UIViewController()
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+//        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+//        
+//        self.vc = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+//        //XCTestCase(ViewController.shared.generateRandomStatus(barra1: 30, barra2: 40, barra3: 50))
+//        print("1")
     }
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+    }
+    
+    func testStatusGenerate(){
+        let vc = ViewController()
+        let valueMin: Float = 0
+        
+        for index in 0...2{
+            XCTAssertGreaterThanOrEqual(vc.getStatusValue()[index],valueMin,  "Valor nao pode ser menor que 0")
+        }
     }
     
     func testExample() {

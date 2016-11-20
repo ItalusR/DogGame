@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0AD2801DE218F300F0FD83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0E9F6E1DDF24270019CF0F /* Main.storyboard */; };
 		8A0E9F6B1DDF24270019CF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E9F6A1DDF24270019CF0F /* AppDelegate.swift */; };
 		8A0E9F6D1DDF24270019CF0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0E9F6C1DDF24270019CF0F /* ViewController.swift */; };
 		8A0E9F701DDF24270019CF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0E9F6E1DDF24270019CF0F /* Main.storyboard */; };
@@ -245,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0AD2801DE218F300F0FD83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +516,7 @@
 				8A0E9F911DDF24270019CF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A0E9F921DDF24270019CF0F /* Build configuration list for PBXNativeTarget "DogGameTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +525,7 @@
 				8A0E9F941DDF24270019CF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A0E9F951DDF24270019CF0F /* Build configuration list for PBXNativeTarget "DogGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +534,7 @@
 				8A0E9F971DDF24270019CF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
